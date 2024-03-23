@@ -1,0 +1,75 @@
+archive.zip
+
+# Spyder project settings
+.spyderproject
+.spyproject
+.spyderworkspace/
+
+# Conda environment files
+conda-env/
+*.yml
+!environment.yml  # Include the main environment file if you have one
+
+# Compiled Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit local files
+.cache/
+.session-state/
+.credentials
+
+# Virtual environment
+env/
+venv/
+*.venv
+*.condaenv
+
+# Output files and directories
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+
+# Ignore directories created by pytest
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Node.js dependencies for any frontend components
+node_modules/
+
+# Local development files
+instance/
+.webassets-cache
+
+# Local configuration file (contains secrets or sensitive information)
+.secret
+
+# Folder used by streamlit for temporary files
+streamlit/
+
